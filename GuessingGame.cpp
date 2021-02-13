@@ -11,6 +11,7 @@ int main()
     //Initialize Variables
     srand(time(NULL));
     int randomInt = rand()%100;//Random Int
+    cout << randomInt << endl;
     int guess = 0;//Player guess
     char option = ' ';//Continue?
     bool running = true;//Game Status
